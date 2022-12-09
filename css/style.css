@@ -1,0 +1,114 @@
+:root {
+    --dark-jungle-green: #011502;
+    --dark-green: #01200F;
+    --cambridge-blue: #9EC5AB;
+    --myrtle-green: #32746D;
+    --midnight-green-eagle-green: #104F55;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: var(--myrtle-green);
+}
+
+#navbar {
+    background-color: var(--midnight-green-eagle-green);
+    height: 100px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 24px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#navbar a:visited {
+    color: white;
+}
+
+
+.page-title {
+    text-align: center;
+    color: white;
+    font-size: 64px;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+    background-color: var(--cambridge-blue);
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project a:visited {
+    color:var(--dark-jungle-green);
+}
+
+.project-name {
+    color: var(--dark-jungle-green);
+}
+
+.project-image {
+    width: 360px;
+    height: 240px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.project-image-2 {
+    width: 360px;
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bio-pic {
+    margin-bottom: 20px;
+}
+
+.text-box {
+    border: 1px solid black;
+    background-color: var(--dark-green);
+    color: var(--cambridge-blue);
+    width: 600px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
