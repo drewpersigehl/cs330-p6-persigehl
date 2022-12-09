@@ -39,6 +39,10 @@ body {
     font-size: 24px;
 }
 
+#navbar a {
+    color: white;
+}
+
 #navbar a:hover {
     text-decoration: underline;
 }
@@ -106,9 +110,14 @@ body {
 .text-box {
     border: 1px solid black;
     background-color: var(--dark-green);
-    color: var(--cambridge-blue);
+    color: white;
     width: 600px;
     padding: 20px;
     font-size: 18px;
     border-radius: 10px;
+}
+
+.text-box a {
+    color: white;
+    text-decoration: underline;
 }
